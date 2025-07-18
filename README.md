@@ -6,6 +6,7 @@ warehouse to generating actionable insights. Designed as a portfolio project hig
 practices in data engineering and analytics.
 
 ---
+<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/crown.svg" width="50" height="50">
 
 ##  Project Requirements
 
