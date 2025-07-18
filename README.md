@@ -4,6 +4,7 @@ Building a modern data warehouse with SQL Server, including ETL processes, data 
 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data
 warehouse to generating actionable insights. Designed as a portfolio project highlights industry best 
 practices in data engineering and analytics.
+
 ---
 
 ##  Project Requirements
@@ -30,6 +31,7 @@ Develop SQL-based analytics to deliver detailed insights into:
 These insights empowerr stakeholders with key business metrics, enabling strategic decion-making.
 
 ---
+
 ##  License
 
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
