@@ -25,6 +25,11 @@ This repository is an excellent resource for professionals and students looking 
 
 ---
 
+## Data Architecture
+![image alt](https://github.com/destinydiver/data-warehouse-project/blob/87a7e7fc8af0f7538086f4ceffd309d9d02ee8bd/Data_Warehouse_Architecture.png)
+
+---
+
 ## Important Links & Tools
 ### Everything is free!
 - Datasets: Access to the project dataset ( csv files ).
