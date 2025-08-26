@@ -28,17 +28,6 @@ This repository is an excellent resource for professionals and students looking 
 ## Data Architecture
 ![image alt](https://github.com/destinydiver/data-warehouse-project/blob/87a7e7fc8af0f7538086f4ceffd309d9d02ee8bd/Data_Warehouse_Architecture.png)
 
----
-
-## Important Links & Tools
-### Everything is free!
-- Datasets: Access to the project dataset ( csv files ).
-- SQL Server Express: Lightweight server for hosting your SQL database.
-- SQL Server Management Studion (SSMS): GUI for managing and interacting with databases.
-- Git Repository: Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
-- DrawIO: Design data architecture, models, flows, and diagrams.
-- Notion: All-in-one tool for project management and organization.
-- Notion Project Steps: Access to all project phases and tasks.
 
 ---
 
@@ -53,7 +42,17 @@ This repository is an excellent resource for professionals and students looking 
 - **Scope**:  Focus on the latest dataset only; historization of data is not required.
 - **Documentation**:  Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 
+---
 
+## Important Links & Tools
+### Everything is free!
+- Datasets: Access to the project dataset ( csv files ).
+- SQL Server Express: Lightweight server for hosting your SQL database.
+- SQL Server Management Studion (SSMS): GUI for managing and interacting with databases.
+- Git Repository: Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
+- DrawIO: Design data architecture, models, flows, and diagrams.
+- Notion: All-in-one tool for project management and organization.
+- Notion Project Steps: Access to all project phases and tasks.
 ---
 
 ### BI:  Analytics & Reporting ( Data Analytics )
