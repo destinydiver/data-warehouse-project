@@ -46,7 +46,7 @@ This repository is an excellent resource for professionals and students looking 
 
 ## Important Links & Tools
 ### Everything is free!
-- Datasets: Access to the project dataset ( csv files ).
+- [Datasets:](https://github.com/destinydiver/data-warehouse-project/tree/ac096087796bb42fceb38f2bbcee2e821316603b/datasets) Access to the project dataset ( csv files ).
 - [Naming Convention](https://github.com/destinydiver/data-warehouse-project/blob/dbe589b86ecee83b035dbcc9180470da299a92d0/naming_conventions.md): Details of project naming scheme.
 - SQL Server Express: Lightweight server for hosting your SQL database.
 - SQL Server Management Studion (SSMS): GUI for managing and interacting with databases.
