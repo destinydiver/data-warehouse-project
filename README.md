@@ -53,7 +53,7 @@ This repository is an excellent resource for professionals and students looking 
 - [Git Repository](https://github.com/): Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
 - [DrawIO](https://www.drawio.com/doc/): Design data architecture, models, flows, and diagrams.
 - [Notion](https://www.notion.com/): All-in-one tool for project management and organization.
-- Notion Project Steps: Access to all project phases and tasks.
+- [Notion Project Steps](https://www.notion.so/23126127c66d802fb26fedd314f52146?v=23126127c66d80df8fcf000c8113f68b&source=copy_link): Access to all project phases and tasks.
 ---
 
 ### BI:  Analytics & Reporting ( Data Analytics )
