@@ -48,7 +48,7 @@ This repository is an excellent resource for professionals and students looking 
 ### Everything is free!
 - [Datasets:](https://github.com/destinydiver/data-warehouse-project/tree/ac096087796bb42fceb38f2bbcee2e821316603b/datasets) Access to the project dataset ( csv files ).
 - [Naming Convention](https://github.com/destinydiver/data-warehouse-project/blob/dbe589b86ecee83b035dbcc9180470da299a92d0/naming_conventions.md): Details of project naming scheme.
-- SQL Server Express: Lightweight server for hosting your SQL database.
+- [SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads): Lightweight server for hosting your SQL database.
 - SQL Server Management Studion (SSMS): GUI for managing and interacting with databases.
 - Git Repository: Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
 - DrawIO: Design data architecture, models, flows, and diagrams.
