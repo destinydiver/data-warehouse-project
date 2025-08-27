@@ -50,9 +50,9 @@ This repository is an excellent resource for professionals and students looking 
 - [Naming Convention](https://github.com/destinydiver/data-warehouse-project/blob/dbe589b86ecee83b035dbcc9180470da299a92d0/naming_conventions.md): Details of project naming scheme.
 - [SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads): Lightweight server for hosting your SQL database.
 - [SQL Server Management Studion (SSMS)](https://www.microsoft.com/en-us/sql-server/sql-server-downloads#SQL-tools-and-drivers): GUI for managing and interacting with databases.
-- Git Repository: Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
-- DrawIO: Design data architecture, models, flows, and diagrams.
-- Notion: All-in-one tool for project management and organization.
+- [Git Repository](https://github.com/): Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
+- [DrawIO](https://www.drawio.com/doc/): Design data architecture, models, flows, and diagrams.
+- [Notion](https://www.notion.com/): All-in-one tool for project management and organization.
 - Notion Project Steps: Access to all project phases and tasks.
 ---
 
