@@ -25,6 +25,20 @@ This repository is an excellent resource for professionals and students looking 
 
 ---
 
+
+##  Project Requirements
+
+### Building the Data Warehouse ( Data Engineering )
+
+#### Specifications
+- **Data Sources**:  Import data from two soruce systems ( ERP and CRM ) provided as CSV files.
+- **Data Quality**:  Cleanse and resolve data quality issues prior to analysis.
+- **Integration**:  Combine both sources into a single, user-friendly data model designed for analytical queries.
+- **Scope**:  Focus on the latest dataset only; historization of data is not required.
+- **Documentation**:  Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+
+---
+
 ## Data Architecture
 ![image alt](https://github.com/destinydiver/data-warehouse-project/blob/87a7e7fc8af0f7538086f4ceffd309d9d02ee8bd/Data_Warehouse_Architecture.png)
 
@@ -38,18 +52,6 @@ This repository is an excellent resource for professionals and students looking 
 ---
 
 
-##  Project Requirements
-
-### Building the Data Warehouse ( Data Engineering )
-
-#### Specifications
-- **Data Sources**:  Import data from two soruce systems ( ERP and CRM ) provided as CSV files.
-- **Data Quality**:  Cleanse and resolve data quality issues prior to analysis.
-- **Integration**:  ;Combine both sources into a single, user-friendly data model designed for analytical queries.
-- **Scope**:  Focus on the latest dataset only; historization of data is not required.
-- **Documentation**:  Provide clear documentation of the data model to support both business stakeholders and analytics teams.
-
----
 
 ## Important Links & Tools
 ### Everything is free!
