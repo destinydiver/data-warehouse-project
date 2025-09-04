@@ -31,6 +31,13 @@ This repository is an excellent resource for professionals and students looking 
 
 ---
 
+## Data-Flow Diagram
+![image alt](https://github.com/destinydiver/data-warehouse-project/blob/b06ff7464be27af92a3b039615bb5e70e952082f/Data%20Warehouse%20Data%20Flow%20Diagram.drawio.png)
+
+
+---
+
+
 ##  Project Requirements
 
 ### Building the Data Warehouse ( Data Engineering )
