@@ -55,6 +55,10 @@ This repository is an excellent resource for professionals and students looking 
 ## Gold Layer - Sales Data Mart
 ![image alt](https://github.com/destinydiver/data-warehouse-project/blob/baf6d30bb4c6cb0acf13ea31c28c09eb0a146bab/Sales_Data_Mart.drawio.png)
 
+---
+
+## Data Sources - Entity Relationship Diagram
+![image alt](https://github.com/destinydiver/data-warehouse-project/blob/f669ae194c96cc2814419c3e27849086381fca5f/DWH%20Entity%20Relationship%20Diagram.png)
 
 ---
 
