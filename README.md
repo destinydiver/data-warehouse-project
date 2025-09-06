@@ -63,6 +63,86 @@ This repository is an excellent resource for professionals and students looking 
 ---
 
 
+# How to Download and Load Datasets into the Bronze Layer
+
+Follow these steps to download the [`data-warehouse-project`](https://github.com/destinydiver/data-warehouse-project) repository, create and initialize the database,
+, create the tables, and load the included CSV datasets into the bronze layer. Then, sequentially execute scripts to load data from the bronze layer to silver layer;
+cleansing and transforming the data in the process. Finally, executing the gold layer script will take the cleansed and transformed data from the silver layer and
+create three views in a star schema; 2 dimension tables (gold.dim_customers & gold.dim_products) expounding on data in the fact table (gold.fact_sales).
+
+---
+
+### 1. Clone the Repository
+
+You can clone project from GitHub or open a terminal and run:
+
+```bash
+git clone https://github.com/destinydiver/data-warehouse-project.git
+cd data-warehouse-project
+```
+
+---
+
+### 2. Execute the `init_database.sql` script in the data-warehouse-project/scripts directory.
+This will create the database and the three shcemas: bronze, silver, and gold.
+
+---
+
+### 3. Place the datasets ( CSV files ) on your system and make note of the file path.
+These files will be local on your machine, but they are to mimick an ETL process on two data sources:
+- CRM - Customer Relationship Management System ( 3 csv files )
+- ERP - Enterprise Resource Planning Data System ( 3 csv files ).
+
+---
+
+### 4. Execute script:  `data-warehouse-project/scrpts/bronze/ddl_bronze.sql`.
+This will create and set up the bronze table.
+
+--- 
+
+### 5. Open script `data-warehouse-project/scripts/bronze/proc_load_bronze.sql` in a text editor.
+Update the six 'FROM' clauses to properly reflect the filepaths to each corresponding
+CSV file on your computer. For example, this is the file path on my system to load the  `cust_info.csv` into
+the corresponding `bronze.crm_cust_info` table:  
+`FROM 'C:\sql\dwh_project\datasets\source_crm\cust_info.csv'`
+
+---
+
+### 6. Execute bronze script `data-warehouse-project/scripts/bronze/proc_load_bronze.sql`.
+
+---
+
+### 7. Verify the Data Load
+After running the script, check the bronze layer tables to ensure data loaded correctly.
+For Example:
+```sql
+SELECT * FROM bronze.crm_cust_info LIMIT 10;
+```
+
+
+---
+
+## 7. Troubleshooting
+
+- Double-check file paths in the SQL script.
+- Ensure you have necessary database permissions.
+- Review any errors from your database client for clues.
+- Refer to any project documentation or README files for additional context.
+
+---
+
+## Summary
+
+1. Clone the repo and locate the `datasets` directory.
+2. Review and, if needed, update the `proc_load_bronze.SQL` script.
+3. Run the script in your database environment.
+4. Verify the data was loaded into the bronze layer.
+
+If you have issues, review error messages and check your environment setup.
+
+---
+
+
 ## Important Links & Tools
 ### Everything is free!
 - [Datasets](https://github.com/destinydiver/data-warehouse-project/tree/ac096087796bb42fceb38f2bbcee2e821316603b/datasets): Access to the project dataset ( csv files ).
