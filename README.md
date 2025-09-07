@@ -109,6 +109,8 @@ the corresponding `bronze.crm_cust_info` table:
 ---
 
 ### 6. Execute bronze script `data-warehouse-project/scripts/bronze/proc_load_bronze.sql`.
+Once you have updated the six 'FROM' clauses outlined in step #5, you can run this scrpt to actually
+load the data into the bronze layer tables.
 
 ---
 
@@ -118,11 +120,11 @@ For Example:
 ```sql
 SELECT * FROM bronze.crm_cust_info LIMIT 10;
 ```
-
+### 8. Execute script `data-warehouse-project/scrpts/silver.load_silver
 
 ---
 
-## 7. Troubleshooting
+### 9. Troubleshooting
 
 - Double-check file paths in the SQL script.
 - Ensure you have necessary database permissions.
