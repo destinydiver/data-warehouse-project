@@ -120,7 +120,16 @@ For Example:
 ```sql
 SELECT * FROM bronze.crm_cust_info LIMIT 10;
 ```
-### 8. Execute script `data-warehouse-project/scrpts/silver.load_silver
+
+### 8. Execute script `data-warehouse-project/scripts/DDL_silver`
+This will create the silver tables.
+
+---
+
+### 9. Execute script `data-warehouse-project/scrpts/proc_load_silver`
+This script will load data from the bronze tables into the corresponding silver tables and in the 
+process, cleanse and transform the data for consistency and readability. After running this scrpt
+verify the loading by running checks for silver layer listed in the `Tests` directory.
 
 ---
 
