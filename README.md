@@ -2,7 +2,7 @@
 
 Building a modern data warehouse with SQL Server, including ETL processes, data modeling, and analytics.
 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data
-warehouse to generating actionable insights. Designed as a portfolio project highlights industry best 
+warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best 
 practices in data engineering and analytics.
 
 ---
@@ -15,17 +15,7 @@ practices in data engineering and analytics.
 - **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
 - **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
 
-This repository is an excellent resource for professionals and students looking to showcase expertise in:
-- SQL Development
-- Data Architect
-- Data Engineering
-- ETL Pipeline Developer
-- Data Modeling
-- Data Analytics
-
 ---
-
-
 ##  Project Requirements
 
 ### Building the Data Warehouse ( Data Engineering )
@@ -96,7 +86,7 @@ These files will be local on your machine, but they are to mimick an ETL process
 ---
 
 ### 4. Execute script:  `data-warehouse-project/scrpts/bronze/ddl_bronze.sql`.
-This will create and set up the bronze table.
+This will create and set up the bronze tables.
 
 --- 
 
@@ -110,7 +100,8 @@ the corresponding `bronze.crm_cust_info` table:
 
 ### 6. Execute bronze script `data-warehouse-project/scripts/bronze/proc_load_bronze.sql`.
 Once you have updated the six 'FROM' clauses outlined in step #5, you can run this scrpt to actually
-load the data into the bronze layer tables.
+load the data into the bronze layer tables. This only loads the data, there is no modifications at
+all done on the data. This is to aid in troubleshooting issues as well as tracking purposes.
 
 ---
 
@@ -121,24 +112,29 @@ For Example:
 SELECT * FROM bronze.crm_cust_info LIMIT 10;
 ```
 
-### 8. Execute script `data-warehouse-project/scripts/DDL_silver`
+### 8. Execute script `data-warehouse-project/scripts/silver/DDL_silver.sql`
 This will create the silver tables.
 
 ---
-
-### 9. Execute script `data-warehouse-project/scrpts/proc_load_silver`
+### 9. Execute script `data-warehouse-project/scrpts/silver/proc_load_silver.sql`
 This script will load data from the bronze tables into the corresponding silver tables and in the 
-process, cleanse and transform the data for consistency and readability. After running this scrpt
+process, cleanse and transform the data for consistency and readability. After running this script
 verify the loading by running checks for silver layer listed in the `Tests` directory.
 
 ---
+### 10. Execute script `data-warehouse-project/scripts/gold/ddl_gold.sql`
+This will create 3 views in a star schema configuration with gold.fact_sales at the center and
+2 dimension tables: gold.dim_customers and gold.dim_products. After the execution of this scrpt,
+execute the gold quality checks in the   `Tests` directory.
 
-### 9. Troubleshooting
+---
+
+
+### 11. Troubleshooting
 
 - Double-check file paths in the SQL script.
 - Ensure you have necessary database permissions.
 - Review any errors from your database client for clues.
-- Refer to any project documentation or README files for additional context.
 
 ---
 
