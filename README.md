@@ -109,7 +109,7 @@ all done on the data. This is to aid in troubleshooting issues as well as tracki
 After running the script, check the bronze layer tables to ensure data loaded correctly.
 For Example:
 ```sql
-SELECT * FROM bronze.crm_cust_info LIMIT 10;
+SELECT TOP 10 * FROM bronze.crm_cust_info;
 ```
 
 ### 8. Execute script `data-warehouse-project/scripts/silver/DDL_silver.sql`
