@@ -27,6 +27,6 @@ SELECT
     IS_NULLABLE, 
     CHARACTER_MAXIMUM_LENGTH
 FROM INFORMATION_SCHEMA.COLUMNS
-WHERE TABLE_NAME = 'report_products';
+WHERE TABLE_NAME = 'report_products';  -- 'report_products' is used here, but any table listed in above query could be substituted
 
 SELECT * FROM INFORMATION_SCHEMA.COLUMNS
