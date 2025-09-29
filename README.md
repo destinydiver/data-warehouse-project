@@ -179,4 +179,10 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 ##  About Me
 
-Hi, my name is Chuck
+Hi, my name is Chuck. I love data and SQL. I will make my transition to SQL, data, and data science from my current 10 year position with a major 
+company first in banking and now as a Property & Casualty agent licensed in all 50 states. I have been expanding my programming and
+cybersecurity skillset over the last few years. Most recently, I completed my CompTIA Secuirty+ certification. I worked in Fraud & 
+Identity Theft initially with my current company and I thought that I might get back into that field. 
+
+I have always loved and have been drawn to data, data science, database management. I am very analytical and love creating and managing data
+systems that are clear and easy to use to provide insight for businesses.
